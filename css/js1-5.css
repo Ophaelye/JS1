@@ -1,0 +1,17 @@
+body {
+  background-color: lightgrey;
+}
+
+div {
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+  float: left;
+  box-shadow: 5px;
+  border-radius: 30px;
+}
+
+/*div:nth-child(1n) { background: #685C90; }
+div:nth-child(2n) { background: #FFA48B; }
+div:nth-child(3n) { background: #BB9C8E; }
+div:nth-child(4n) { background: #E7D5D5; }*/
