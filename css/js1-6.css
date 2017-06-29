@@ -12,6 +12,7 @@ div:nth-child(odd) {
   box-shadow: 2px 2px 3px;
   border-radius: 50px;
 }
+
 div:nth-child(even) {
   background: #FFA48B;
   width: 95px;
@@ -19,10 +20,10 @@ div:nth-child(even) {
   margin: 30px 20px;
   float: left;
   box-shadow: 2px 2px 3px;
-  border-radius: 50px; }
+  border-radius: 50px;
+}
 
 #myDiv {
   width: 1px;
   height: 1px;
-
 }
