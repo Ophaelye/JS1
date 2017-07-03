@@ -1,10 +1,10 @@
-var print = function () {
-  var box = document.getElementById("box");
-  box.innerHTML =
-  "Nom: " + document.getElementById('lastname').value + "<br>" +
-  "Prénom: " + document.getElementById('firstname').value + "<br>" +
-  "Age: " + document.getElementById('age').value + "<br>" +
-  "Adresse: " + document.getElementById('addr').value + "<br>";
+var addition = function() {
 
 
+  var i1 =document.getElementById('one').value;
+  var i2 =document.getElementById('two').value;
+
+  var total = parseInt(i1) + parseInt(i2);
+  var resultat = document.getElementById('resultat');
+  resultat.innerHTML= total;
 }
