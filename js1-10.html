@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <title> </title>
+
+  <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="vendor/bootstrap-3.3-7-dist/css/bootstrap-theme.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/js1-9.css"/>
+
+  <script type="text/javascript" src="JS/script-9.js"></script>
+
+  <script  src="vendor/JQUERY/jquery-3.2.1.min.js"></script>
+  <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+    <form class="form-horizontal" action="signup.php" method="POST">
+
+<div class="container">
+<label> Prénom* </label>
+  <input class="form-control" type="text" id="firstname" placeholder="Prénom">
+  <br>
+  <label> Nom* </label>
+  <input class="form-control" type="text" id="lastname" placeholder="Nom">
+  <br>
+
+  <label> Age </label>
+  <input  type="number" id="age" placeholder="0">
+
+  <br>
+  <br>
+
+  <label> Adresse </label>
+  <input class="form-control" type="text" class="addr" id="addr" placeholder="Adresse">
+  <br>
+
+  <button onClick="print()">Envoyer</button>
+
+  <div id="box"></div>
+
+</div>
+</body>
+</html>

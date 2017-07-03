@@ -1,0 +1,19 @@
+.container {
+  padding: 50px;
+  margin-top: 80px;
+  background-color: rgb(106, 109, 129);
+  box-shadow: 8px 8px 17px rgb(40, 221, 79);
+  border-radius: 100px;
+}
+
+
+
+#age {
+  padding: 5px;
+}
+
+button {
+  padding: 3px;
+  margin: 5px;
+  float: right;
+}
