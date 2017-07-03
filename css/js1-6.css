@@ -1,3 +1,5 @@
+
+
 body {
   background-color: lightgrey;
 }
@@ -21,9 +23,4 @@ div:nth-child(even) {
   float: left;
   box-shadow: 2px 2px 3px;
   border-radius: 50px;
-}
-
-#myDiv {
-  width: 1px;
-  height: 1px;
 }
