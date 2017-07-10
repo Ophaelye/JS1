@@ -8,3 +8,5 @@ var addition = function() {
   var resultat = document.getElementById('resultat');
   resultat.innerHTML= total;
 }
+
+/* parseInt transforme une chaine de caractères en nombre*/
