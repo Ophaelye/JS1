@@ -1,12 +1,32 @@
-function getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-}
+var allGreen = function() {
 
-function setRandomColor(element) {
-    element.style = "background-color:" + getRandomColor();
-}
+      var div = document.getElementsByTagName('div');
+      for (i=0; i<div.length; i++) {
+        div[i].style = 'background-color: green;';
+      }
+    }
+
+    var redgogreen = function() {
+
+      var div = document.getElementsByClassName('red');
+      for (i=0; i<div.length; i++) {
+        div[i].style = 'background-color: green;';
+      }
+    }
+
+    var bluegogreen = function() {
+      var div =
+      document.getElementsByClassName('blue');
+      for (i=0; i<div.length; i++) {
+        div[i].style = 'background-color: green'
+      }
+    }
+
+
+    var reset = function() {
+
+      var div = document.getElementsByTagName('div');
+      for (i=0; i<div.length; i++) {
+        div[i].style = '';
+      }
+    }
