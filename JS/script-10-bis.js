@@ -1,19 +1,19 @@
-var POI = function(){
-  var i1 = document.getElementById('one').value;
-  var total = parseInt(i1)
+var guessEven = function(element){
+  var one = element.value;
+  var total = parseInt(one);
   var result = document.getElementById('result');
   result.innerHTML = total;
 
 
-if(one%2 == 0) {
-  console.log("la valeur est paire");
+  if(one%2 == 0) {
+    console.log("la valeur est paire");
+  }
+
+  else {
+    console.log("la valeur est impaire")
+  }
 }
 
-else {
-  console.log("la valeur est impaire")
-}
-}
-/*c'est ici que ça doit merder obviously*/
 
 
 
@@ -34,12 +34,12 @@ else {
 /*var addition = function() {
 
 
-  var i1 =document.getElementById('one').value;
-  var i2 =document.getElementById('two').value;
+var i1 =document.getElementById('one').value;
+var i2 =document.getElementById('two').value;
 
-  var total = parseInt(i1) + parseInt(i2);
-  var resultat = document.getElementById('resultat');
-  resultat.innerHTML= total;
+var total = parseInt(i1) + parseInt(i2);
+var resultat = document.getElementById('resultat');
+resultat.innerHTML= total;
 }
 */
 /* parseInt transforme une chaine de caractères en nombre*/

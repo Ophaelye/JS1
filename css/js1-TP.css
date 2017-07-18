@@ -3,18 +3,8 @@ body {
 }
 
 
-.red {
-  height: 50px;
-  width: 80px;
-  background-color: red;
-  margin: 5px;
-
-}
-
-.blue {
-  height: 50px;
-  width: 80px;
-  background-color: blue;
-  margin: 5px;
+#box {
+  width: 200px;
+  height: 200px;
 
 }

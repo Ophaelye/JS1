@@ -8,40 +8,42 @@
   <title> </title>
   <script  src="vendor/JQUERY/jquery-3.2.1.min.js"></script>
   <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-  <script style="text/javascript" src="JS/script13-bis.js"></script>
+  <script style="text/javascript" src="JS/scriptTP.js"></script>
   <!--pour lier un fichier js = src et pas href-->
   <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="vendor/bootstrap-3.3-7-dist/css/bootstrap-theme.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="css/js1-13.css"/>
+  <link rel="stylesheet" href="css/js1-TP.css"/>
 </head>
 
 <body>
 
-  <div class="buttons">
-    <button onclick="allGreen()">All go green</button>
-
-    <button onClick="redgogreen()">red go green</button>
-
-    <button onClick="bluegogreen()">blue go green</button>
-
-    <button onClick="reset()">reset</button>
-
-  </div>
-
   <div class="container">
+    <form class="form-horizontal" method="post">
+      <legend> Choose your hero </legend>
 
-    <div class="red"></div>
-    <div class="blue"></div>
-    <div class="red"></div>
-    <div class="blue"></div>
-    <div class="red"></div>
-    <div class="blue"></div>
-    <div class="red"></div>
-    <div class="blue"></div>
-    <div class="red"></div>
-    <div class="blue"></div>
+      <div>
+        <label class="control-label">Nom</label>
+        <input class= "form-control" id="name" type="text" />
+      </div>
+      <div>
+        <label class="control-label">Agilité</label>
+        <input class="form-control"id="agility" type="text"/>
+      </div>
+      <div>
+        <label class="control-label">Force</label>
+        <input class="form-control"id="strength" type="text"/>
+      </div>
+      <div>
+        <label class="control-label">Endurance</label>
+        <input class="form-control"id="stamina" type="text"/>
+      </div>
 
-  </div>
+        <br/>
+
+          <button onClick="print"();> Enregistrer </button>
+
+          <div id="box"></div>
+        </div>
 
 
 
