@@ -1,6 +1,21 @@
 //activation du mode strict//
 "use strict";
 
+var index = 0
+while (index < 10) {
+  console.log("ok");
+  index++;
+}
+
+//same que
+
+for (var index = 0; index < 10; index++); {
+  console.log("ok");
+}
+
+
+
+
 var myArray = [123, 42, 3.14, 100, 1, -2];
 
 // boucle for avec index
